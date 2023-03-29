@@ -1,0 +1,514 @@
+{
+  "homepages": [],
+  "source_base_path": "",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "HPxAVkgYCXMZDYMHUoWjv7ZLePQb23PU2nsq2Y3bR6Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/AgentDataPreparation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/AgentDataPreparation.html",
+          "hash": "PRQ1Ihmc7sV1Iz0JJEzQGK2USSYSN5N6o/sZnEFvvFg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ArtisocCloudReference.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ArtisocCloudReference.html",
+          "hash": "FfVhZYA69aQeOdOXOuq0SI0H/GeNNJ5DcWWMg1fogLI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installation.html",
+          "hash": "eytBJPMwmlBO4K4yY525xAQPBCymjLu5iYHJr2OTb0s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/InstallationPlayer.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/InstallationPlayer.html",
+          "hash": "lLvpFyHBcn71pxNu4CAY0MKM5iOXhwGODUPW8gON0rs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/NetworkConversion.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/NetworkConversion.html",
+          "hash": "0g0kHBuneK472eWMFGOkrfCrI5P2Xauhw78YzKLBJh0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/SimulationExecution.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/SimulationExecution.html",
+          "hash": "UhkSXzplKwAjXddcIi1h49CrobNJ1bPgmHky7ndexVo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/SimulationExecutionPlayer.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/SimulationExecutionPlayer.html",
+          "hash": "nnPkY1wBC9tKR+hxWNtiajwuic/RSqSm2GtMV6mwN/c="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/SimulationPreparation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/SimulationPreparation.html",
+          "hash": "5nkcFyTKrX55ZQA86X06Sh0fcJutPo+IigoMu1LkOVc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/SimulationRuleChange.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/SimulationRuleChange.html",
+          "hash": "BS6abTO+D5k6rSVDnrsBX/FGUGf6imrj3pKPqDn2Wkw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "fXZ1S5+LPjo3y/9NA88TMJYNTIbuSiZWjlkROG3CHD0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-cloud-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-cloud-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-cloud-license-player.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-cloud-license-player.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-cloud-license-standard.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-cloud-license-standard.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-cloud-license.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-cloud-license.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-cloud-login.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-cloud-login.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-cloud-open.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-cloud-open.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-cloud-player.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-cloud-player.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-cloud-systems.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-cloud-systems.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-execute-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-execute-result.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-execute.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-execute.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-log.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-log.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/artisoc-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/artisoc-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/download-zip.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/download-zip.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/get-model.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/get-model.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/model-upload.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/model-upload.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/push-model-upload.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/push-model-upload.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/agent-info-sample.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/agent-info-sample.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/event-csv-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/event-csv-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/extract-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/extract-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/geojson-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/geojson-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/json-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/json-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/json-output-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/json-output-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/kddi-location-analyzer.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/kddi-location-analyzer.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/link-attribute-legend.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/link-attribute-legend.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/link-attribute-table-edit1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/link-attribute-table-edit1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/link-edit-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/link-edit-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/node-edit-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/node-edit-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/output-link-info.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/output-link-info.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/output-node-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/output-node-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/visible-2D-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/visible-2D-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/visible-3D-viewer.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/visible-3D-viewer.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/reference/visible-attribute-edit.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/reference/visible-attribute-edit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/rules-edit.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/rules-edit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/show-rules.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/show-rules.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/top-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/top-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "1UT8yTspLJugHktzHPMFHDIVPug+Q50CJxlsr8ZlGK0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "ms3cH0ekxWYYFduSxf+82XfBBpwShD3veE6qsivSRYk="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

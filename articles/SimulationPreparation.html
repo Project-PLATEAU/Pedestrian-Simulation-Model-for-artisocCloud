@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>歩行シミュレーション実行準備 | PLATEAU-UC22-023　歩行シミュレーションモデル </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="歩行シミュレーション実行準備 | PLATEAU-UC22-023　歩行シミュレーションモデル ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../PLATEAU-UC22-023-Pedestrian-Simulation-Model-for-artisocCloud-gh-pages/index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="歩行シミュレーション実行準備">歩行シミュレーション実行準備</h1>
+
+<p>ここでは、歩行シミュレーションモデルをartisoc Cloudにインストールした後の実行準備の方法を記載します。</p>
+<h2 id="実行準備手順">実行準備手順</h2>
+<ul>
+<li>artisoc Cloudにモデルをインポート後、画面左上コントロールパネルから、シミュレーションの実行条件を設定します。具体的には、下記の項目を指定します。
+<img src="../images/artisoc-settings.png" alt="">
+<ul>
+<li><p>シミュレーション開始時刻（整数値）</p>
+<ul>
+<li>何時からシミュレーションを開始するかを整数値で指定します。</li>
+</ul>
+</li>
+<li><p>シミュレーション終了時刻（実数値）</p>
+<ul>
+<li>何時までのシミュレーション実行とするかを実数値で指定します。
+<ul>
+<li>例えば、「8.1」を指定した場合、8時6分まで、「8.2」を指定した場合、8時12分までの実行となります。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>1ステップあたりの秒数</p>
+<ul>
+<li>1秒間に何回計算するかを設定します。
+<ul>
+<li>「0.5秒/ステップ」：シミュレーション内のエージェントがシミュレーション内の時間で0.5秒に1回計算、判断を行います。</li>
+<li>「1秒/ステップ」：シミュレーション内のエージェントがシミュレーション内の時間で1秒に1回計算、判断を行います。</li>
+</ul>
+</li>
+<li>1ステップあたりの秒数を細かくするとエージェントの行動を細かく表現できますが、シミュレーション内の計算負荷が高くなるため、シミュレーションの実行時間が長くなります。</li>
+</ul>
+</li>
+<li><p>イベント有無</p>
+<ul>
+<li>シミュレーション内でイベントを発生させるかを設定します。
+<ul>
+<li>「イベントあり」：イベントを想定したシミュレーションが実行されます。</li>
+<li>「イベントなし」：イベントが実施されていない、平常時のシミュレーションが実行されます。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>曜日</p>
+<ul>
+<li>シミュレーションの想定として、平日とするか、土日祝日（休日）とするかを設定します。
+<ul>
+<li>「平日」：平日を想定したシミュレーションが実行されます。</li>
+<li>「土日祝日」：土日祝日を想定したシミュレーションが実行されます。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>広告有無</p>
+<ul>
+<li>シミュレーション内で広告の効果を反映するかを設定します。
+<ul>
+<li>「広告あり」：イベントの宣伝広告が設置された場合のシミュレーションが実行されます。</li>
+<li>「広告なし」：イベントの宣伝広告がない場合のシミュレーションが実行されます。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="インプットデータ">インプットデータ</h2>
+<ul>
+<li>artisoc Cloudのモデルを読み込むことで、インプットデータとなる歩行ネットワークデータ及びエージェント情報データが自動的に読み込まれます。</li>
+<li>歩行ネットワークデータやエージェント情報データを更新したい場合は、下記ページのデータ生成手順を参考にしてください。
+<ul>
+<li><a href="NetworkConversion.html">参考：歩行ネットワークデータの生成方法</a></li>
+<li><a href="AgentDataPreparation.html">参考：エージェントデータの生成方法</a></li>
+</ul>
+</li>
+</ul>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Project-PLATEAU/PLATEAU-UC22-023-Pedestrian-Simulation-Model-for-artisocCloud/blob/gh-pages/articles/SimulationPreparation.html" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      PLATEAU-UC22-023　歩行シミュレーションモデル
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
