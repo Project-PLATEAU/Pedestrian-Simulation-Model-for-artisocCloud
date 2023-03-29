@@ -1,0 +1,17 @@
+[
+    {
+        "id": "display_value:0",
+        "type": "display_value",
+        "name": "時刻",
+        "options": {
+            "elements": [
+                {
+                    "id": 0,
+                    "name": "時刻",
+                    "expression": "Universe.time",
+                    "decimal_place": 0
+                }
+            ]
+        }
+    }
+]

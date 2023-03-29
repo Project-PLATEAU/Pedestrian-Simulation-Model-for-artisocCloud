@@ -1,0 +1,66 @@
+{
+    "id": {
+        "default": "0",
+        "description": "ID"
+    },
+    "x": {
+        "default": "0",
+        "description": "空間内のX座標"
+    },
+    "y": {
+        "default": "0",
+        "description": "空間内のY座標"
+    },
+    "direction": {
+        "default": "0",
+        "description": "方向"
+    },
+    "layer": {
+        "default": "0",
+        "description": "空間内のレイヤ番号"
+    },
+    "node_id": {
+        "default": "",
+        "description": ""
+    },
+    "attractor_point": {
+        "default": "",
+        "description": ""
+    },
+    "signage_point": {
+        "default": "",
+        "description": ""
+    },
+    "attractor_event_node_id": {
+        "default": "",
+        "description": ""
+    },
+    "self_attractor": {
+        "default": "",
+        "description": ""
+    },
+    "attractor_to_id": {
+        "default": "",
+        "description": ""
+    },
+    "lower_staytime": {
+        "default": "",
+        "description": ""
+    },
+    "upper_staytime": {
+        "default": "",
+        "description": ""
+    },
+    "from_time": {
+        "default": "",
+        "description": ""
+    },
+    "to_time": {
+        "default": "",
+        "description": ""
+    },
+    "attractor_point_init": {
+        "default": "",
+        "description": ""
+    }
+}

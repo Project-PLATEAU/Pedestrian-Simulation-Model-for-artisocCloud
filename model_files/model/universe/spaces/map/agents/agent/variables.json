@@ -1,0 +1,134 @@
+{
+    "id": {
+        "default": "0",
+        "description": "ID"
+    },
+    "x": {
+        "default": "0",
+        "description": "空間内のX座標"
+    },
+    "y": {
+        "default": "0",
+        "description": "空間内のY座標"
+    },
+    "direction": {
+        "default": "0",
+        "description": "方向"
+    },
+    "layer": {
+        "default": "0",
+        "description": "空間内のレイヤ番号"
+    },
+    "agent_id": {
+        "default": "",
+        "description": ""
+    },
+    "time": {
+        "default": "",
+        "description": ""
+    },
+    "speed": {
+        "default": "",
+        "description": ""
+    },
+    "link_seq_count": {
+        "default": "",
+        "description": ""
+    },
+    "link_sequence": {
+        "default": "",
+        "description": ""
+    },
+    "agent_type": {
+        "default": "",
+        "description": ""
+    },
+    "current_edge": {
+        "default": "",
+        "description": ""
+    },
+    "walking_distance": {
+        "default": "",
+        "description": ""
+    },
+    "width_sensitivity": {
+        "default": "",
+        "description": ""
+    },
+    "attractor_sensitivity": {
+        "default": "",
+        "description": ""
+    },
+    "current_trip_number": {
+        "default": "",
+        "description": ""
+    },
+    "attractor_degree": {
+        "default": "",
+        "description": ""
+    },
+    "attractor_change_history": {
+        "default": "",
+        "description": ""
+    },
+    "event_drop_history": {
+        "default": "",
+        "description": ""
+    },
+    "event_drop_list": {
+        "default": "",
+        "description": ""
+    },
+    "attractor_color": {
+        "default": "",
+        "description": ""
+    },
+    "event_color": {
+        "default": "",
+        "description": ""
+    },
+    "change_history_color_dict": {
+        "default": "",
+        "description": ""
+    },
+    "move_mode_color": {
+        "default": "",
+        "description": ""
+    },
+    "move_mode_color_dict": {
+        "default": "",
+        "description": ""
+    },
+    "event_all": {
+        "default": "",
+        "description": ""
+    },
+    "event_all_color": {
+        "default": "",
+        "description": ""
+    },
+    "step_count": {
+        "default": "",
+        "description": ""
+    },
+    "drop_rate": {
+        "default": "",
+        "description": ""
+    },
+    "trip": {
+        "default": "",
+        "description": ""
+    },
+    "move_mode": {
+        "default": "",
+        "description": ""
+    },
+    "stop_counter": {
+        "default": "",
+        "description": ""
+    },
+    "current_stop_time": {
+        "default": "",
+        "description": ""
+    }
+}

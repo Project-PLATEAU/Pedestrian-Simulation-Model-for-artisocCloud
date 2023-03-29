@@ -1,0 +1,9 @@
+{
+    "type": "continuous",
+    "description": "",
+    "history_size": 0,
+    "width": 1300,
+    "height": 1400,
+    "is_loop": false,
+    "layer_count": 1
+}

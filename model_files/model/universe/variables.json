@@ -1,0 +1,66 @@
+{
+    "time": {
+        "default": "",
+        "description": ""
+    },
+    "start_hour": {
+        "default": "",
+        "description": ""
+    },
+    "end_hour": {
+        "default": "",
+        "description": ""
+    },
+    "second_per_step": {
+        "default": "",
+        "description": ""
+    },
+    "meter_per_grid": {
+        "default": "",
+        "description": ""
+    },
+    "agent_manager": {
+        "default": "",
+        "description": ""
+    },
+    "network_manager": {
+        "default": "",
+        "description": ""
+    },
+    "time_manager": {
+        "default": "",
+        "description": ""
+    },
+    "output_log": {
+        "default": "",
+        "description": ""
+    },
+    "node_dict": {
+        "default": "",
+        "description": ""
+    },
+    "drop_rate": {
+        "default": "",
+        "description": ""
+    },
+    "day_type": {
+        "default": "",
+        "description": ""
+    },
+    "event_type": {
+        "default": "",
+        "description": ""
+    },
+    "ad_type": {
+        "default": "",
+        "description": ""
+    },
+    "fo": {
+        "default": "",
+        "description": ""
+    },
+    "network": {
+        "default": "",
+        "description": ""
+    }
+}

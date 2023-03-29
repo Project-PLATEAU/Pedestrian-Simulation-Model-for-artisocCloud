@@ -1,0 +1,83 @@
+[
+    {
+        "id": "slide_bar:0",
+        "name": "シミュレーション開始時刻（時）",
+        "type": "integer",
+        "control": "slide_bar",
+        "options": {
+            "variable": "start_hour",
+            "min": 0,
+            "max": 24,
+            "step": 1,
+            "default": "0"
+        }
+    },
+    {
+        "id": "slide_bar:1",
+        "name": "シミュレーション終了時刻（時）",
+        "type": "float",
+        "control": "slide_bar",
+        "options": {
+            "variable": "end_hour",
+            "min": 0,
+            "max": 24,
+            "step": 0.1,
+            "default": "0"
+        }
+    },
+    {
+        "id": "slide_bar:2",
+        "name": "ステップあたりの秒",
+        "type": "float",
+        "control": "slide_bar",
+        "options": {
+            "variable": "second_per_step",
+            "min": 0,
+            "max": 1,
+            "step": 0.5,
+            "default": "1"
+        }
+    },
+    {
+        "id": "list:0",
+        "name": "曜日種別",
+        "type": "string",
+        "control": "list",
+        "options": {
+            "variable": "day_type",
+            "candidates": [
+                "\"平日\"",
+                "\"土日祝日\""
+            ],
+            "selectedValue": null
+        }
+    },
+    {
+        "id": "list:1",
+        "name": "イベント種別",
+        "type": "string",
+        "control": "list",
+        "options": {
+            "variable": "event_type",
+            "candidates": [
+                "\"イベントあり\"",
+                "\"イベントなし\""
+            ],
+            "selectedValue": null
+        }
+    },
+    {
+        "id": "list:2",
+        "name": "広告種別",
+        "type": "string",
+        "control": "list",
+        "options": {
+            "variable": "ad_type",
+            "candidates": [
+                "\"広告あり\"",
+                "\"広告なし\""
+            ],
+            "selectedValue": null
+        }
+    }
+]

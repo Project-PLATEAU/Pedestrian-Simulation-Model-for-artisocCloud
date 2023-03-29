@@ -1,0 +1,13 @@
+{
+    "end_conditions": {
+        "steps": 10000,
+        "duration_sec": 86400,
+        "expression": null
+    },
+    "step_delay_default": 0,
+    "step_delay_max": 1000,
+    "random_seed": null,
+    "server_settings": {
+        "steps": 10
+    }
+}
