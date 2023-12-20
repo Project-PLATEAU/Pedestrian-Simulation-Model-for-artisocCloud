@@ -27,7 +27,7 @@
 
 ## 3．利用手順
 利用手順として、インストール方法、インストール後の使い方、動作環境、前提ソフトウェアを記載します。
-詳細は、[こちら](https://project-plateau.github.io/UC22-023-Pedestrian-Simulation-Model-for-artisocCloud/)をご覧ください。
+詳細は、[こちら](https://project-plateau.github.io/Pedestrian-Simulation-Model-for-artisocCloud/)をご覧ください。
 
 なお、このモデルは、artisoc Cloudのstandardライセンスで開発可能なモデルであり、同ライセンスでの使用を前提としています。
 
